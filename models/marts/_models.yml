@@ -1,0 +1,4 @@
+models:
+     - name: fact_orders
+       description: Order data, one row per order
+       access: public
