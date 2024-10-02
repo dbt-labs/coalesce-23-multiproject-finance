@@ -1,5 +1,5 @@
 with orders as (
-    select * from fct_orders
+    select * from {{ ref('core_platform','fct_orders',version=latest) }}
 ), 
 
 agg as (
