@@ -1,0 +1,4 @@
+models:
+  - name: total_order_revenue
+    description: total order revenue information
+    access: public
