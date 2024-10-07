@@ -1,9 +1,3 @@
-{{
-    config(
-        enabled=false
-    )
-}}
-
 with orders as (
     select * from {{ ref('core_platform', 'fct_orders') }}
 ),
