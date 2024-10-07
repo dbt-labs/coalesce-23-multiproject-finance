@@ -1,0 +1,5 @@
+models:
+  - name: total_order_revenue
+    description: "Total revenue of orders"
+    config:
+      tags: hourly
